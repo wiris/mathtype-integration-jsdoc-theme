@@ -56,11 +56,12 @@
 
     <div class="page-content">
       <?js if (type !== 'source') { ?>
-        <nav class="sidebar">
           <?js if (type === 'tutorial') { ?>
+          <nav class="sidebar">
             <h2><?js= this.tutorialsTitle ?></h2>
             <?js= this.tutorialsSidenav ?>
           <?js } else if (type === 'api') { ?>
+            <nav class="sidebar">
             <?js= this.apiSidenav ?>
           <?js } else { ?>
             <?js= this.indexSidenav ?>
