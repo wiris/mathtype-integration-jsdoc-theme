@@ -18,6 +18,7 @@ var hasOwnProp = Object.prototype.hasOwnProperty;
 var data;
 var view;
 var outdir = path.normalize(env.opts.destination);
+// Here we can extend the navigation section.
 var sections = ['index', 'api', 'tutorials'];
 var urls = {};
 
@@ -555,6 +556,7 @@ function buildReadmeNav(readme) {
 }
 
 function buildChangelogNav() {
+  return '';
   return '<li><a href="#changelog">Change log</a></li>';
 }
 
@@ -631,10 +633,12 @@ function buildMemberNavs(items) {
  * @return {string} The HTML for the navigation sidebar.
  */
 function buildIndexNav(readme) {
+  // We don't won't anything into the index navigation bar.
+  return '';
   var nav = '';
 
   nav += buildReadmeNav(readme);
-  nav += buildChangelogNav();
+  // nav += buildChangelogNav();
 
   return util.format('<h2>Home</h2><ul>%s</ul>', nav);
 }
