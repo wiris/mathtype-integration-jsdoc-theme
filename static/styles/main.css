@@ -40,7 +40,7 @@
     text-decoration: inherit; }
 
 .main-container a {
-  color: #E56515;
+  color: #f26a54;
   text-decoration: none; }
   .main-container a:hover {
     text-decoration: underline !important; }
@@ -70,7 +70,7 @@
   margin-bottom: 0.5rem; }
 
 .main-container h3.subsection-title {
-  color: #E56515;
+  color: #f26a54;
   text-transform: uppercase;
   font-family: "Carlito", sans-serif;
   font-size: 1.7rem;
@@ -90,7 +90,7 @@
   .main-container.api h4 a, .main-container .lodash-method a {
     color: inherit; }
   .main-container.api h4 .new, .main-container.api h4 .comma, .main-container.api h4 .parenthesis, .main-container.api h4 .member-of, .main-container.api h4 .fat-arrow, .main-container.api h4 .event-on, .main-container.api h4 .optional-bracket, .main-container .lodash-method .new, .main-container .lodash-method .comma, .main-container .lodash-method .parenthesis, .main-container .lodash-method .member-of, .main-container .lodash-method .fat-arrow, .main-container .lodash-method .event-on, .main-container .lodash-method .optional-bracket {
-    color: #E56515; }
+    color: #f26a54; }
   .main-container.api h4 .type-signature, .main-container .lodash-method .type-signature {
     color: #C58E6B;
     font-weight: normal; }
@@ -268,7 +268,7 @@ pre.prettyprint {
     margin-right: 0.3rem; }
 
 .attributes .optional-bracket {
-  color: #E56515; }
+  color: #f26a54; }
 
 .attributes .name {
   color: black; }
@@ -282,7 +282,7 @@ pre.prettyprint {
   font-weight: normal; }
 
 .attributes .default-equals {
-  color: #E56515; }
+  color: #f26a54; }
 
 .details dd {
   font-family: "Carlito", sans-serif; }
@@ -291,7 +291,7 @@ pre.prettyprint {
   list-style: none; }
 
 nav.main-navbar {
-  background-color: #E56515;
+  background-color: #f26a54;
   font-size: 0;
   position: fixed;
   height: 70px;
@@ -317,10 +317,10 @@ nav.main-navbar {
     display: none; }
   @media screen and (max-width: 650px) {
     nav.main-navbar input[type=checkbox]:checked ~ #menu {
-      border-top: 1px solid #ce5b13;
+      border-top: 1px solid #f26a54;
       display: block; } }
   nav.main-navbar ul {
-    background-color: #E56515;
+    background-color: #f26a54;
     list-style-type: none;
     display: inline-block; }
     @media screen and (max-width: 650px) {
@@ -349,7 +349,7 @@ nav.main-navbar {
       vertical-align: middle;
       width: 42px; }
     nav.main-navbar a:hover, nav.main-navbar a.active {
-      background-color: #ce5b13; }
+      background-color: #f26a54; }
 
 .sidebar {
   background-color: #eee;
@@ -373,10 +373,10 @@ nav.main-navbar {
     margin-top: 10px;
     font-size: 1.2rem; }
   .sidebar h3 {
-    color: #E56515;
+    color: #f26a54;
     font-size: 1rem; }
   .sidebar h4 {
-    color: rgba(229, 101, 21, 0.7);
+    color: rgba(242, 106, 84, 0.7);
     font-weight: lighter;
     text-transform: uppercase;
     margin-bottom: 0.1rem;
@@ -444,4 +444,5 @@ html {
       font-size: 15px; } }
 
 .page-content {
-  margin-top: 70px; }
+  margin-top: 70px;
+  overflow-x: hidden; }

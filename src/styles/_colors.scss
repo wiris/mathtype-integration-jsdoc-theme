@@ -1,5 +1,5 @@
 // Private variables.
-$_bookshelf-orange:  #E56515;
+$_bookshelf-orange:  #f26a54;
 $_charcoal:          #4A4A4A;
 $_cream:             #FFFDFB;
 $_chalk-blue:        #B0C9E4;
@@ -26,7 +26,9 @@ $footer-color:               $_gray;
 $sidebar-background-color: #eee;
 $sidebar-class-name-color: $_bookshelf-orange;
 $sidebar-group-name-color: rgba($_bookshelf-orange, 0.7);
-$navbar-button-hover-color: darken($_bookshelf-orange, 5%);
+// $navbar-button-hover-color: darken($_bookshelf-orange, 5%);
+$navbar-button-hover-color: $_bookshelf-orange;
+
 
 // Methods.
 $function-signature-background-color:  $_faint-orange;
