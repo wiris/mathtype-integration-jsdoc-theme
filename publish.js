@@ -588,29 +588,29 @@ function buildMemberNav(item) {
   else {
     itemsNav += '<li>';
     itemsNav += util.format('<h3><a href="%s">%s</a></h3>', sectionLink(item), item.name.replace(/^module:/, ''));
-    itemsNav += buildSubsectionLink(item, 'construction', 'Construction');
-    itemsNav += buildNavItemList([item].concat(initialize), 'construction', linkto);
+    // itemsNav += buildSubsectionLink(item, 'construction', 'Construction');
+    // itemsNav += buildNavItemList([item].concat(initialize), 'construction', linkto);
 
-    if (statics.length) {
-      itemsNav += buildSubsectionLink(item, 'static', 'Static');
-      itemsNav += buildNavItemList(statics, 'static', linkto);
-    }
-    if (members.length) {
-      itemsNav += buildSubsectionLink(item, 'members', 'Members');
-      itemsNav += buildNavItemList(members, 'members', linkto);
-    }
-    if (methods.length) {
-      itemsNav += buildSubsectionLink(item, 'methods', 'Methods');
-      itemsNav += buildNavItemList(methods, 'methods', linkto);
-    }
-    if (lodash.length) {
-      itemsNav += buildSubsectionLink(item, 'lodash-methods', 'Lodash Methods');
-      itemsNav += buildNavItemList(lodash, 'lodash-methods', linkto);
-    }
-    if (events.length) {
-      itemsNav += buildSubsectionLink(item, 'events', 'Events');
-      itemsNav += buildNavItemList(events, 'events', linkto);
-    }
+    // if (statics.length) {
+    //   itemsNav += buildSubsectionLink(item, 'static', 'Static');
+    //   itemsNav += buildNavItemList(statics, 'static', linkto);
+    // }
+    // if (members.length) {
+    //   itemsNav += buildSubsectionLink(item, 'members', 'Members');
+    //   itemsNav += buildNavItemList(members, 'members', linkto);
+    // }
+    // if (methods.length) {
+    //   itemsNav += buildSubsectionLink(item, 'methods', 'Methods');
+    //   itemsNav += buildNavItemList(methods, 'methods', linkto);
+    // }
+    // if (lodash.length) {
+    //   itemsNav += buildSubsectionLink(item, 'lodash-methods', 'Lodash Methods');
+    //   itemsNav += buildNavItemList(lodash, 'lodash-methods', linkto);
+    // }
+    // if (events.length) {
+    //   itemsNav += buildSubsectionLink(item, 'events', 'Events');
+    //   itemsNav += buildNavItemList(events, 'events', linkto);
+    // }
 
     itemsNav += '</li>';
   }
