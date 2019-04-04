@@ -5,18 +5,32 @@ JSDoc theme for [MathType JavaScript Integration API](https://github.com/wiris/m
 Forked from [Bookshelf](https://github.com/wiris/bookshelf-jsdoc-theme/).
 
 
-## Install
+## Install Instructions
 
-Clone repository to your designated `jsdoc` template directory:
+Clone the MathType Javascript Integration API:
 
 ```bash
-$ git clone https://github.com/wiris/mathtype-integration-jsdoc-theme
+$ git clone https://github.com/wiris/mathtype-integration-js-dev
+```
+
+In the root directory, clone the theme repository to the designated `jsdoc` template directory:
+
+```bash
+$ git clone https://github.com/wiris/mathtype-integration-jsdoc-theme doc/templates/mathtype-integration-jsdoc-theme
 ```
 
 ## Usage
 
+Install npm dependencies:
+
 ```bash
-$ jsdoc entry-file.js -t path/to/mathtype-integration-jsdoc-theme
+$ npm install
+```
+
+Launch jsdoc:
+
+```bash
+$ node_modules/.bin/jsdoc -c doc/conf.json
 ```
 
 ### Styles
