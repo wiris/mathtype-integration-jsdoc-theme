@@ -538,6 +538,7 @@ function buildNavItemList(items, className, linktoFn) {
 function buildTutorialsNav(tutorials) {
   var listItems = tutorials.reduce(function(html, tutorial) {
     if (tutorial.longname === 'index') return html;
+    if (tutorial.longname === 'readme') return html;
     var result = linkToTutorial(null, tutorial.longname);
     if (tutorial.children) result += buildTutorialsNav(tutorial.children);
     return html + '<li>' + result + '</li>';
