@@ -1,37 +1,31 @@
 # MathType Integration
 
-JSDoc theme for [MathType JavaScript Integration API](https://github.com/wiris/mathtype-integration-js-dev).
+JSDoc theme for [MathType JavaScript Integration API](https://www.npmjs.com/package/@wiris/mathtype-html-integration-devkit).
 
 Forked from [Bookshelf](https://github.com/wiris/bookshelf-jsdoc-theme/).
 
-
 ## Install Instructions
 
-Clone the MathType Javascript Integration API:
+Clone the [MathType Javascript Integration API](https://www.npmjs.com/package/@wiris/mathtype-html-integration-devkit) from the MathType web repository:
 
 ```bash
-$ git clone https://github.com/wiris/mathtype-integration-js-dev
+$ git clone https://github.com/wiris/html-integrations
+$ cd packages/mathtype-html-integration-devkit
 ```
 
-In the root directory, clone the theme repository to the designated `jsdoc` template directory:
-
-```bash
-$ git clone https://github.com/wiris/mathtype-integration-jsdoc-theme doc/templates/mathtype-integration-jsdoc-theme
-```
-
-## Usage
-
-Install npm dependencies:
+Then, install `npm` dependencies:
 
 ```bash
 $ npm install
 ```
+## Usage
 
-Launch jsdoc:
+Run this commands to generate the source files of the documentation site:
 
 ```bash
-$ node_modules/.bin/jsdoc -c doc/conf.json
+$ npm run build-docs
 ```
+The source code of the documentation site is generated on the `/out` folder.
 
 ### Styles
 
