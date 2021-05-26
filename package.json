@@ -37,13 +37,12 @@
   },
   "homepage": "https://github.com/bookshelf/bookshelf-jsdoc-theme",
   "devDependencies": {
-    "font-awesome": "^4.3.0",
-    "node-sass": "^4.9.4"
+    "font-awesome": "^4.0.0",
+    "node-sass": "^5.0.0"
   },
   "dependencies": {
     "catharsis": "^0.8.7",
-    "eslint": "^5.8.0",
-    "lodash": "^4.17.11",
-    "taffydb": "https://github.com/hegemonic/taffydb/tarball/7d100bcee0e997ee4977e273cdce60bd8933050e"
+    "lodash": "^4.17.21",
+    "taffydb": "2.6.2"
   }
 }

@@ -159,7 +159,7 @@
   .main-container .method.has-description .item-description > *:last-child, .main-container .lodash-methods.has-description .item-description > *:last-child {
     margin-bottom: 0; }
   .main-container .method.has-description .attributes:after, .main-container .lodash-methods.has-description .attributes:after {
-    /* content: '* * *'; */
+    content: '* * *';
     display: block;
     text-align: center;
     font-family: "AverageMono", monospace;
