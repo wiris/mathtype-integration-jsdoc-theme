@@ -41,7 +41,7 @@
     "node-sass": "^5.0.0"
   },
   "dependencies": {
-    "catharsis": "^0.8.7",
+    "catharsis": "^0.9.0",
     "lodash": "^4.17.21",
     "taffydb": "2.6.2"
   }
