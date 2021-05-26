@@ -1,8 +1,8 @@
-# MathType Integration
+# MathType Integration JSDoc theme
 
 JSDoc theme for [MathType JavaScript Integration API](https://www.npmjs.com/package/@wiris/mathtype-html-integration-devkit).
 
-Forked from [Bookshelf](https://github.com/wiris/bookshelf-jsdoc-theme/).
+Forked from [Bookshelf](https://github.com/bookshelf/bookshelf-jsdoc-theme).
 
 ## Install Instructions
 
@@ -69,13 +69,17 @@ In your projects `package.json` file add a generate script:
     "encoding": "utf8",
     "private": true,
     "recurse": true,
-    "template": "path/to/mathtype-integration-jsdoc-theme"
-    "whitelist": ['Optional', 'List', 'Of', 'Top', 'Level', 'Classes']
-    "changelog": './path-to/CHANGELOG.md',
+    "template": "path/to/mathtype-integration-jsdoc-theme",
+    "whitelist": ["Optional", "List", "Of", "Top", "Level", "Classes"],
+    "changelog": "./path-to/CHANGELOG.md",
     "title": ""
   }
 }
 ```
+
+## Releases
+
+All notable changes to this project are documented in the [CHANGELOG.md](CHANGES.md) file.
 
 ## License
 

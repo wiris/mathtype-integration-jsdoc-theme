@@ -1,6 +1,6 @@
 {
   "name": "bookshelf-jsdoc-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JSDoc theme used by bookshelfjs.org, the homepage of the Bookshelf.js ORM http://bookshelfjs.org",
   "main": "publish.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:bookshelf/bookshelf-jsdoc-theme.git"
+    "url": "git@github.com:wiris/mathtype-integration-jsdoc-theme.git"
   },
   "author": {
     "name": "Nijiko Yonskai",
@@ -33,12 +33,12 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/bookshelf/bookshelf-jsdoc-theme/issues"
+    "url": "https://github.com/wiris/mathtype-integration-jsdoc-theme/issues"
   },
-  "homepage": "https://github.com/bookshelf/bookshelf-jsdoc-theme",
+  "homepage": "https://github.com/wiris/mathtype-integration-jsdoc-theme",
   "devDependencies": {
-    "font-awesome": "^4.0.0",
-    "node-sass": "^5.0.0"
+    "font-awesome": "^4.7.0",
+    "node-sass": "^6.0.0"
   },
   "dependencies": {
     "catharsis": "^0.9.0",
